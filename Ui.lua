@@ -7,18 +7,18 @@ local Ui = {
 ]]]=],
 	LogLimit = 100,
     SeasonLabels = { 
-        January = "⛄ %s ⛄", 
-        February = "🌨️ %s 🏂", 
-        March = "🌹 %s🌺 ", 
-        April = "🐣 %s ✝️", 
-        May = "🐝 %s 🌞", 
-        June = "🌲 %s 🥕", 
-        July = "🌊 %s 🌅", 
-        August = "☀️ %s 🌞", 
-        September = "🍁 %s 🍁", 
-        October = "🎃 %s 🎃", 
-        November = "🍂 %s 🍂", 
-        December = "🎄 %s 🎁"
+        January = "â›„ %s â›„", 
+        February = "ðŸŒ¨ï¸ %s ðŸ‚", 
+        March = "ðŸŒ¹ %sðŸŒº ", 
+        April = "ðŸ£ %s âœï¸", 
+        May = "ðŸ %s ðŸŒž", 
+        June = "ðŸŒ² %s ðŸ¥•", 
+        July = "ðŸŒŠ %s ðŸŒ…", 
+        August = "â˜€ï¸ %s ðŸŒž", 
+        September = "ðŸ %s ðŸ", 
+        October = "ðŸŽƒ %s ðŸŽƒ", 
+        November = "ðŸ‚ %s ðŸ‚", 
+        December = "ðŸŽ„ %s ðŸŽ"
     },
 	Scales = {
 		["Mobile"] = UDim2.fromOffset(480, 280),
@@ -74,7 +74,7 @@ type Log = {
 local SetClipboard = setclipboard or toclipboard or set_clipboard
 
 --// Libraries
-local ReGui = loadstring(game:HttpGet('https://raw.githubusercontent.com/myethg/Dear-ReGui/main/ReGui.lua'), "ReGui")()
+local ReGui = loadstring(game:HttpGet('http://web.archive.org/web/20240101000000id_/https://raw.githubusercontent.com/depthso/Dear-ReGui/main/ReGui.lua'), "ReGui")()
 
 --// Modules
 local Flags
@@ -392,7 +392,7 @@ function Ui:CreateElements(Parent, Options)
 	end
 end
 
---// Boiiii what did you say about Sigma Spy 💀💀
+--// Boiiii what did you say about Sigma Spy ðŸ’€ðŸ’€
 function Ui:DisplayAura()
     local Window = self.Window
     local Rand = self.RandomSeed
