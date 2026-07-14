@@ -1798,4 +1798,3 @@ NoButtons=true})p('InputInt4','InputInt',4,{NoButtons=true})p('SliderInt2',
 'DragFloat4','DragFloat',4)q('InputColor3','InputInt3')q('SliderColor3',
 'SliderInt3')q('DragColor3','DragInt3')r('InputCFrame','InputInt3')r(
 'SliderCFrame','SliderInt3')r('DragCFrame','DragInt3')return aa
-
