@@ -1,4 +1,7 @@
-﻿Background=Color3.fromRGB(20,20,20),Selection=Color3.fromRGB(255,255,255),
+local a a={cache={},load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}
+end return a.cache[b].c end}do function a.a()local b,c,d='8.0',cloneref or
+function(b)return b end,{Theme={Syntax={Text=Color3.fromRGB(204,204,204),
+Background=Color3.fromRGB(20,20,20),Selection=Color3.fromRGB(255,255,255),
 SelectionBack=Color3.fromRGB(102,161,255),Operator=Color3.fromRGB(204,204,204),
 Number=Color3.fromRGB(255,198,0),String=Color3.fromRGB(172,240,148),Comment=
 Color3.fromRGB(102,102,102),Keyword=Color3.fromRGB(248,109,124),BuiltIn=Color3.
